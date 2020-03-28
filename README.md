@@ -74,7 +74,7 @@ Interact with GVT
 
 Same here we pre-trained SVT with MLE
 ```console
-❱❱❱ python3 main.py --model trs --v2 --emb_dim 300 --hidden_dim 300 --hop 4 --heads 4 --cuda --batch_size 32 --persona --lr 0.0002 --pretrain_emb --num_var_layers 1 --kl_ceiling 0.05 --aux_ceiling 1 --full_kl_step 12000 --dataset empathetic --save_path save/trs_ed_persona_v2 > save/trs_ed_persona_v2/out.txt
+❱❱❱ python3 main.py --model trs --v2 --emb_dim 300 --hidden_dim 300 --hop 4 --heads 4 --cuda --batch_size 32 --persona --lr 0.0002 --pretrain_emb --num_var_layers 1 --kl_ceiling 0.05 --aux_ceiling 1 --full_kl_step 12000 --dataset empathetic --save_path save/trs_ed_persona_v2/ > save/trs_ed_persona_v2/out.txt
 
 ```
 Use the trained Transformer to initialize SVT: replace model_7999_4.0249_55.9739_0.0000_2.0900_0.0000 with your checkpoint.
