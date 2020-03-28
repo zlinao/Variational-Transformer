@@ -1,9 +1,9 @@
 from utils.data_loader import prepare_data_seq
 from utils import config
 if config.v2:
-    from model.cvae_trs import CvaeTrans
+    from model.SVT import CvaeTrans
 else:
-    from model.cvae_new import CvaeTrans
+    from model.GVT import CvaeTrans
 from model.seq2seq import SeqToSeq
 from model.common_layer import evaluate,evaluate_tra, count_parameters
 import torch
