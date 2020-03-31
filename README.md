@@ -21,13 +21,13 @@ This code has been written using PyTorch >= 0.4.1. If you use any source codes o
 
 ## Global Variational Transformer (GVT):
 <p align="center">
-<img src="plot/GVT.png" width="100%" />
+<img src="plot/GVT.png" width="40%" />
 </p>
 The GVT is the extension of CVAE in Zhao et al. (2017), which modeling the discourse-level diversity with a global latent variable.
 
 ## Sequential Variational Transformer (SVT):
 <p align="center">
-<img src="plot/SVT.png" width="100%" />
+<img src="plot/SVT.png" width="40%" />
 </p>
 SVT, inspired by variational autoregressive models (Goyal et al., 2017; Du et al., 2018), incorporates a sequence of latent variables into decoding process by using a novel variational decoder layer. Unlike previous approaches (Zhao et al., 2017; Goyal et al., 2017; Du et al., 2018), SVT uses Non-causal Multi-head Attention, which attend to future tokens for computing posterior latent variables instead of using an additional encoder. 
 
