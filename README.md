@@ -1,5 +1,35 @@
 # Variational-Transformer
-This code has been written using PyTorch >= 0.4.1.
+<img src="plot/pytorch-logo-dark.png" width="10%"> [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+
+<img align="right" src="plot/HKUST.jpg" width="12%">
+
+This is the PyTorch implementation of the paper:
+
+**MoEL: Mixture of Empathetic Listeners**. [**Zhaojiang Lin**](https://zlinao.github.io/), Genta Indra Winata, Peng Xu, Zihan Liu, Pascale Fung  [[PDF]](https://arxiv.org/pdf/2003.12738.pdf)
+
+This code has been written using PyTorch >= 0.4.1. If you use any source codes or datasets included in this toolkit in your work, please cite the following paper. The bibtex is listed below:
+<pre>
+@misc{lin2020variational,
+    title={Variational Transformers for Diverse Response Generation},
+    author={Zhaojiang Lin and Genta Indra Winata and Peng Xu and Zihan Liu and Pascale Fung},
+    year={2020},
+    eprint={2003.12738},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL}
+}
+</pre>
+
+## Global Variational Transformer (GVT):
+<p align="center">
+<img src="plot/GVT.png" width="100%" />
+</p>
+The GVT is the extension of CVAE in Zhao et al. (2017), which modeling the discourse-level diversity with a global latent variable.
+
+## Sequential Variational Transformer (SVT):
+<p align="center">
+<img src="plot/SVT.png" width="100%" />
+</p>
+SVT, inspired by variational autoregressive models (Goyal et al., 2017; Du et al., 2018), incorporates a sequence of latent variables into decoding process by using a novel variational decoder layer. Unlike previous approaches (Zhao et al., 2017; Goyal et al., 2017; Du et al., 2018), SVT uses Non-causal Multi-head Attention, which attend to future tokens for computing posterior latent variables instead of using an additional encoder. 
 
 ## Dependency
 Check the packages needed or simply run the command
