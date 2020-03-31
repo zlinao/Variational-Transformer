@@ -5,7 +5,7 @@
 
 This is the PyTorch implementation of the paper:
 
-**MoEL: Mixture of Empathetic Listeners**. [**Zhaojiang Lin**](https://zlinao.github.io/), Genta Indra Winata, Peng Xu, Zihan Liu, Pascale Fung  [[PDF]](https://arxiv.org/pdf/2003.12738.pdf)
+**Variational Transformers for Diverse Response Generation**. [**Zhaojiang Lin**](https://zlinao.github.io/), Genta Indra Winata, Peng Xu, Zihan Liu, Pascale Fung  [[PDF]](https://arxiv.org/pdf/2003.12738.pdf)
 
 This code has been written using PyTorch >= 0.4.1. If you use any source codes or datasets included in this toolkit in your work, please cite the following paper. The bibtex is listed below:
 <pre>
