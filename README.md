@@ -9,13 +9,11 @@ This is the PyTorch implementation of the paper:
 
 This code has been written using PyTorch >= 0.4.1. If you use any source codes or datasets included in this toolkit in your work, please cite the following paper. The bibtex is listed below:
 <pre>
-@misc{lin2020variational,
-    title={Variational Transformers for Diverse Response Generation},
-    author={Zhaojiang Lin and Genta Indra Winata and Peng Xu and Zihan Liu and Pascale Fung},
-    year={2020},
-    eprint={2003.12738},
-    archivePrefix={arXiv},
-    primaryClass={cs.CL}
+@article{lin2020variational,
+  title={Variational Transformers for Diverse Response Generation},
+  author={Lin, Zhaojiang and Winata, Genta Indra and Xu, Peng and Liu, Zihan and Fung, Pascale},
+  journal={arXiv preprint arXiv:2003.12738},
+  year={2020}
 }
 </pre>
 
