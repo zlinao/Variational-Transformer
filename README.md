@@ -3,7 +3,7 @@
 
 <img align="right" src="plot/HKUST.jpg" width="12%">
 
-This is the PyTorch implementation of the paper:
+:high_brightness: This is the PyTorch implementation of the paper:
 
 **Variational Transformers for Diverse Response Generation**. [**Zhaojiang Lin**](https://zlinao.github.io/), Genta Indra Winata, Peng Xu, Zihan Liu, Pascale Fung  [[PDF]](https://arxiv.org/pdf/2003.12738.pdf)
 
